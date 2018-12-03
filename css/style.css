@@ -11,6 +11,7 @@ h1 {
     font-family: Roboto, sans-serif;
     font-weight: bold;
 }
+
 .wrap-field {
     max-width: 1598px;
     height: 100%;
@@ -37,7 +38,7 @@ h1 {
     margin: 0 auto;
     margin-top: 4%;
     position: relative;
-    animation: fieldUp 2s ease ;
+    animation: fieldUp 2s ease;
 }
 
 .team-logo {
@@ -82,12 +83,13 @@ h1 {
     width: 50%;
     text-align: center;
 }
+
 /**/
 .formation {
     position: relative;
     left: 0;
     right: 0;
-   /* display: none;*/
+    /* display: none;*/
     cursor: pointer;
 }
 
@@ -103,11 +105,13 @@ h1 {
     position: absolute;
     bottom: 10%;
 }
+
 .player-2 {
     position: absolute;
     bottom: 20%;
     left: 28%;
 }
+
 .player-3 {
     position: absolute;
     bottom: 20%;
@@ -161,7 +165,8 @@ h1 {
     bottom: 70%;
     left: 45%;
 }
-/*
+
+
 @keyframes fieldUp {
     0%{
         transform: translateY(15%);
@@ -172,74 +177,87 @@ h1 {
         opacity: 1;
     }
 }
-*/
-.card{
+
+.card {
     position: absolute;
     left: 36%;
     top: -213%;
     z-index: 1;
     width: 250px;
     height: 250px;
-    font-family: Roboto,sans-serif;
+    font-family: Roboto, sans-serif;
 }
-.card-header{
+
+.card-header {
     background-color: #003f6f;
     height: 25%;
     text-align: center;
     position: relative;
 }
-.card-header p{
+
+.card-header p {
     line-height: 35px;
     text-transform: uppercase;
 }
+
 .photo {
     position: absolute;
     left: 23%;
     top: 55%;
 }
-.photo img{
+
+.photo img {
     width: 50%;
     border-radius: 100px;
 }
-.info-topwrap{
+
+.info-topwrap {
     background-color: #fff;
 }
-.info-top{
+
+.info-top {
     display: flex;
     padding: 20% 0 10%;
 }
-.info-top p{
+
+.info-top p {
     color: black;
-    font-family: Raleway,sans-serif;
+    font-family: Raleway, sans-serif;
     margin: 2% 0;
     font-size: 1rem;
 }
-.age, .height, .origin{
+
+.age, .height, .origin {
     width: 33.33%;
     color: darkgrey;
-    font-family: Raleway,sans-serif;
+    font-family: Raleway, sans-serif;
     font-weight: 100;
-    border-right:1px solid rgba(128, 128, 128, 0.36);
+    border-right: 1px solid rgba(128, 128, 128, 0.36);
 }
-.info-bottom{
+
+.info-bottom {
     display: flex;
     background-color: #f6f6f6;
     border-top: 1px solid rgba(128, 128, 128, 0.36);
 }
-.games, .goals{
+
+.games, .goals {
     width: 50%;
 }
-.games{
+
+.games {
     border-right: 1px solid rgba(128, 128, 128, 0.36);
 }
-.info-bottom p{
+
+.info-bottom p {
     color: black;
-    font-family: Raleway,sans-serif;
-     margin: 9% 0 0 0;
+    font-family: Raleway, sans-serif;
+    margin: 9% 0 0 0;
 }
-.info-bottom p:nth-child(2){
+
+.info-bottom p:nth-child(2) {
     color: #a40028;
-    font-family: Roboto,sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 1.5rem;
     padding: 1%;
 }
