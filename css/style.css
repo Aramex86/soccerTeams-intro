@@ -1,0 +1,246 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+}
+.wrap-field {
+    max-width: 1598px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.container-wrap {
+    background-image: url("../images/stadium.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.field-formation {
+    position: relative;
+    text-align: center;
+}
+
+.field {
+    width: 60%;
+    height: 650px;
+    background-image: url("../images/field-home.png");
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 4%;
+    position: relative;
+    animation: fieldUp 2s ease ;
+}
+
+.team-logo {
+    position: absolute;
+    left: -1%;
+    top: -4%;
+}
+
+.team-logo img {
+    width: 40%;
+}
+
+.swicth-btn {
+    width: 150px;
+    height: 41px;
+    border: 2px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Roboto, sans-serif;
+
+}
+
+.swicth-btn a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    line-height: 43px;
+}
+
+.home {
+    background-color: #003f6f;
+    width: 50%;
+    border-radius: 20px 0 0 20px;
+    text-align: center;
+}
+
+.away {
+    width: 50%;
+    text-align: center;
+}
+/**/
+.formation {
+    position: relative;
+    left: 0;
+    right: 0;
+   /* display: none;*/
+    cursor: pointer;
+}
+
+.formation p {
+    color: #fff;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 2px;
+}
+
+.player-1 {
+    position: absolute;
+    bottom: 10%;
+}
+.player-2 {
+    position: absolute;
+    bottom: 20%;
+    left: 28%;
+}
+.player-3 {
+    position: absolute;
+    bottom: 20%;
+    right: 28%;
+}
+
+.player-4 {
+    position: absolute;
+    bottom: 25%;
+    right: 54%;
+}
+
+.player-5 {
+    position: absolute;
+    bottom: 25%;
+    left: 54%;
+}
+
+.player-6 {
+    position: absolute;
+    bottom: 47%;
+    left: 46%;
+}
+
+.player-7 {
+    position: absolute;
+    bottom: 47%;
+    right: 46%;
+}
+
+.player-8 {
+    position: absolute;
+    bottom: 41%;
+    right: 0;
+}
+
+.player-9 {
+    position: absolute;
+    bottom: 74%;
+    right: 0;
+}
+
+.player-10 {
+    position: absolute;
+    bottom: 70%;
+    right: 45%;
+}
+
+.player-11 {
+    position: absolute;
+    bottom: 70%;
+    left: 45%;
+}
+/*
+@keyframes fieldUp {
+    0%{
+        transform: translateY(15%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+*/
+.card{
+    position: absolute;
+    left: 36%;
+    top: -213%;
+    z-index: 1;
+    width: 250px;
+    height: 250px;
+    font-family: Roboto,sans-serif;
+}
+.card-header{
+    background-color: #003f6f;
+    height: 25%;
+    text-align: center;
+    position: relative;
+}
+.card-header p{
+    line-height: 35px;
+    text-transform: uppercase;
+}
+.photo {
+    position: absolute;
+    left: 23%;
+    top: 55%;
+}
+.photo img{
+    width: 50%;
+    border-radius: 100px;
+}
+.info-topwrap{
+    background-color: #fff;
+}
+.info-top{
+    display: flex;
+    padding: 20% 0 10%;
+}
+.info-top p{
+    color: black;
+    font-family: Raleway,sans-serif;
+    margin: 2% 0;
+    font-size: 1rem;
+}
+.age, .height, .origin{
+    width: 33.33%;
+    color: darkgrey;
+    font-family: Raleway,sans-serif;
+    font-weight: 100;
+    border-right:1px solid rgba(128, 128, 128, 0.36);
+}
+.info-bottom{
+    display: flex;
+    background-color: #f6f6f6;
+    border-top: 1px solid rgba(128, 128, 128, 0.36);
+}
+.games, .goals{
+    width: 50%;
+}
+.games{
+    border-right: 1px solid rgba(128, 128, 128, 0.36);
+}
+.info-bottom p{
+    color: black;
+    font-family: Raleway,sans-serif;
+     margin: 9% 0 0 0;
+}
+.info-bottom p:nth-child(2){
+    color: #a40028;
+    font-family: Roboto,sans-serif;
+    font-size: 1.5rem;
+    padding: 1%;
+}
+
