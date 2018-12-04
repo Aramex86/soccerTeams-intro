@@ -89,8 +89,9 @@ h1 {
     position: relative;
     left: 0;
     right: 0;
-    /* display: none;*/
     cursor: pointer;
+    width: 13%;
+    animation-delay: 2s ;
 }
 
 .formation p {
@@ -104,66 +105,68 @@ h1 {
 .player-1 {
     position: absolute;
     bottom: 10%;
+    left: 44%;
 }
 
 .player-2 {
     position: absolute;
     bottom: 20%;
-    left: 28%;
+    left: 60%;
 }
 
 .player-3 {
     position: absolute;
     bottom: 20%;
-    right: 28%;
+    left: 30%;
 }
 
 .player-4 {
     position: absolute;
     bottom: 25%;
-    right: 54%;
+    left: 17%;
 }
 
 .player-5 {
     position: absolute;
     bottom: 25%;
-    left: 54%;
+    left: 72%;
 }
 
 .player-6 {
     position: absolute;
     bottom: 47%;
-    left: 46%;
+    left: 72%;
 }
 
 .player-7 {
     position: absolute;
     bottom: 47%;
-    right: 46%;
+    left: 17%;
 }
 
 .player-8 {
     position: absolute;
     bottom: 41%;
-    right: 0;
+    left: 45%;
 }
 
 .player-9 {
     position: absolute;
     bottom: 74%;
-    right: 0;
+    left: 44%;
 }
 
 .player-10 {
     position: absolute;
     bottom: 70%;
-    right: 45%;
+    left: 17%;
 }
+
 
 .player-11 {
     position: absolute;
     bottom: 70%;
-    left: 45%;
+    left: 72%;
 }
 
 
