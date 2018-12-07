@@ -78,6 +78,9 @@ h1 {
     border-radius: 20px 0 0 20px;
     text-align: center;
 }
+.home-wrap{
+    display: none;
+}
 
 .away {
     width: 50%;
@@ -265,4 +268,75 @@ h1 {
     font-size: 1.5rem;
     padding: 1%;
 }
+.away-wrap p{
+    text-align: center;
+}
+.away__team-logo{
+    position: absolute;
+    left: 5%;
+    top: -5%;
+}
+.away__team-logo img{
+    width: 40%;
+}
+.juve_player-1{
+    position: absolute;
+    bottom: 10%;
+    left: 44%;
+}
+.juve_player-2{
+    position: absolute;
+    bottom: 20%;
+    left: 60%;
+}
+.juve_player-3{
+    position: absolute;
+    bottom: 20%;
+    left: 30%;
+}
+.juve_player-4 {
+    position: absolute;
+    bottom: 25%;
+    left: 17%;
+}
 
+.juve_player-5 {
+    position: absolute;
+    bottom: 25%;
+    left: 72%;
+}
+
+.juve_player-6 {
+    position: absolute;
+    bottom: 47%;
+    left: 72%;
+}
+
+.juve_player-7 {
+    position: absolute;
+    bottom: 47%;
+    left: 17%;
+}
+
+.juve_player-8 {
+    position: absolute;
+    bottom: 41%;
+    left: 45%;
+}
+
+.juve_player-9 {
+    position: absolute;
+    bottom: 74%;
+    left: 44%;
+}
+
+.juve_player-10 {
+    position: absolute;
+    bottom: 70%;
+    left: 17%;
+}
+.juve_player-11 {
+    position: absolute;
+    bottom: 70%;
+    left: 72%;
+}
