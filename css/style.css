@@ -50,43 +50,94 @@ h1 {
 .team-logo img {
     width: 40%;
 }
-
-.swicth-btn {
-    width: 150px;
-    height: 41px;
+.swicth-btn{
+    width: 135px;
+    height: 36px;
     border: 2px solid white;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
+    margin: 0 auto;
     border-radius: 100px;
     display: flex;
-    flex-wrap: wrap;
-    font-family: Roboto, sans-serif;
+    overflow: hidden;
+    margin-top: 25px;
 
 }
-
-.swicth-btn a {
+.swicth-btn a{
     text-decoration: none;
     text-transform: uppercase;
     color: #ffffff;
-    line-height: 43px;
+    line-height: 35px;
+    font-family: Roboto,sans-serif;
+    font-size: 0.8rem;
+
+}
+.home{
+    width: 50%;
+    background-color: #00335f;
+    position: relative;
+}
+.home a{
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.home-move::before{
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #003f6f;
+    animation: moveInLeft 1s ease;
+}
+@keyframes moveInLeft {
+    0%{
+        transform: translateX(100px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
 }
 
-.home {
-    background-color: #003f6f;
+.away{
     width: 50%;
-    border-radius: 20px 0 0 20px;
-    text-align: center;
+    position: relative;
+
 }
+.away a{
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.away-move::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #003f6f;
+    animation: moveInRight 1s ease;
+}
+@keyframes moveInRight {
+    0%{
+        transform: translateX(-50px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+
+
+
+
 .home-wrap{
+
+}
+.away-wrap{
     display: none;
 }
 
 
-.away {
-    width: 50%;
-    text-align: center;
-}
 
 /**/
 .formation {
@@ -187,14 +238,23 @@ h1 {
 
 .card {
     position: absolute;
-    left: 36%;
+    left: -60%;
     top: -213%;
     z-index: 1;
     width: 250px;
     height: 250px;
     font-family: Roboto, sans-serif;
     display: none;
-
+}
+.away_card{
+    position: absolute;
+    left: -60%;
+    top: -213%;
+    z-index: 1;
+    width: 250px;
+    height: 250px;
+    font-family: Roboto, sans-serif;
+    display: none;
 }
 
 .card-header {
@@ -288,66 +348,58 @@ h1 {
 }
 .juve_player-2{
     position: absolute;
-    bottom: 20%;
+    bottom: 17%;
     left: 60%;
 }
 .juve_player-3{
     position: absolute;
-    bottom: 20%;
+    bottom: 17%;
     left: 30%;
 }
 .juve_player-4 {
     position: absolute;
-    bottom: 25%;
+    bottom: 20%;
     left: 17%;
 }
 
 .juve_player-5 {
     position: absolute;
-    bottom: 25%;
+    bottom: 20%;
     left: 72%;
 }
 
 .juve_player-6 {
     position: absolute;
-    bottom: 47%;
+    bottom: 44%;
     left: 72%;
 }
 
 .juve_player-7 {
     position: absolute;
-    bottom: 47%;
+    bottom: 44%;
     left: 17%;
 }
 
 .juve_player-8 {
     position: absolute;
-    bottom: 41%;
+    bottom: 37%;
     left: 45%;
 }
 
 .juve_player-9 {
     position: absolute;
-    bottom: 74%;
+    bottom: 71%;
     left: 44%;
 }
 
 .juve_player-10 {
     position: absolute;
-    bottom: 70%;
-    left: 17%;
+    bottom: 67%;
+    left: 20%;
 }
 .juve_player-11 {
     position: absolute;
-    bottom: 70%;
-    left: 72%;
+    bottom: 67%;
+    left: 69%;
 }
-.away_card{
-    position: absolute;
-    left: 36%;
-    top: -213%;
-    z-index: 1;
-    width: 250px;
-    height: 250px;
-    font-family: Roboto, sans-serif;
-}
+
