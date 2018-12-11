@@ -68,7 +68,6 @@ h1 {
     line-height: 35px;
     font-family: Roboto,sans-serif;
     font-size: 0.8rem;
-
 }
 .home{
     width: 50%;
@@ -80,6 +79,7 @@ h1 {
     left: 0;
     right: 0;
 }
+
 .home-move::before{
     content: "";
     position: absolute;
@@ -101,7 +101,6 @@ h1 {
 .away{
     width: 50%;
     position: relative;
-
 }
 .away a{
     position: absolute;
@@ -245,6 +244,16 @@ h1 {
     height: 250px;
     font-family: Roboto, sans-serif;
     display: none;
+}
+.show{
+    position: absolute;
+    left: -60%;
+    top: -213%;
+    z-index: 1;
+    width: 250px;
+    height: 250px;
+    font-family: Roboto, sans-serif;
+    display: block;
 }
 .away_card{
     position: absolute;

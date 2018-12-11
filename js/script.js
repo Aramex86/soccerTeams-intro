@@ -1,9 +1,9 @@
 $(document).ready(function () {
 
     $('.away').click(function () {
-       $(this).toggleClass('away-move');
+        $(this).toggleClass('away-move');
         $('.home').removeClass('home-move');
-        $('.home').css('background-color','unset');
+        $('.home').css('background-color', 'unset');
         $(".home-wrap").fadeOut(500);
         $('.away-wrap').fadeIn(500);
     });
@@ -13,13 +13,18 @@ $(document).ready(function () {
         $(".away-wrap").fadeOut(500);
         $('.home-wrap').fadeIn(500);
     });
-
-
-
-
-
-
-
+    $('.formation').mouseover(function () {
+        $('.card', this).addClass('show');
+    });
+    $('.formation').mouseout(function () {
+        $('.card', this).removeClass('show');
+    });
+    $('.formation').mouseover(function () {
+        $('.away_card', this).addClass('show');
+    });
+    $('.formation').mouseout(function () {
+        $('.away_card', this).removeClass('show');
+    });
 
 
 });
