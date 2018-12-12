@@ -7,6 +7,7 @@ $(document).ready(function () {
         $(".home-wrap").fadeOut(500);
         $('.away-wrap').fadeIn(500);
     });
+
     $('.home').click(function () {
         $(this).addClass('home-move');
         $('.away').removeClass('away-move');
@@ -20,10 +21,10 @@ $(document).ready(function () {
         $('.card', this).removeClass('show');
     });
     $('.formation').mouseover(function () {
-        $('.away_card', this).addClass('show');
+        $('.away_card',this).addClass('show').removeClass('away_card');
     });
     $('.formation').mouseout(function () {
-        $('.away_card', this).removeClass('show');
+        $('.show',this).removeClass('show').addClass('away_card');
     });
 
 
